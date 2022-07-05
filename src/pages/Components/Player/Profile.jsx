@@ -1,5 +1,5 @@
 import React, { useState, useContext, useEffect } from "react";
-import MasterContext from "../../Context/";
+import MasterContext from "../../../Context";
 
 function Profile({ id }) {
   const master = useContext(MasterContext);
@@ -111,7 +111,7 @@ function Profile({ id }) {
           NEX
           <input
             type="text"
-            value={nex}
+            value={`${nex}%`}
             onChange={handleChange}
             name="nex"
             id="nex"

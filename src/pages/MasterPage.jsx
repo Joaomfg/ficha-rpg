@@ -1,5 +1,5 @@
 import React from "react";
-import PlayerDisplay from "./Components/PlayerDisplay";
+import PlayerDisplay from "./Components/Master/PlayerDisplay";
 
 function MasterPage() {
   return (

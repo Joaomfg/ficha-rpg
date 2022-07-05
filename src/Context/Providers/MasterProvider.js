@@ -38,6 +38,7 @@ export default function MasterProvider({ children }) {
         ps: 0,
         psM: 0,
     }
+    console.log('opa');
     
     setPlayers([...players, newPlayer]);
     setId(id + 1);
@@ -48,11 +49,48 @@ export default function MasterProvider({ children }) {
     setPlayers(updatedPlayers);
   }
 
+  const changeStatus = (id, title, pAtual, pMax) => {
+    const numberId = parseFloat(id);
+    let updatedPlayers = '';
+    if (title === 'Vida') {
+      updatedPlayers = players.map((player) => {
+        if (player.id === numberId) {
+          player.pv = pAtual;
+          player.pvM = pMax;
+        }
+        return player;
+      }
+      );
+    } else if (title === 'P.E') {
+      updatedPlayers = players.map((player) => {
+        if (player.id === numberId) {
+          player.pe = pAtual;
+          player.peM = pMax;
+        }
+        return player;
+      }
+      );
+    } else {
+      updatedPlayers = players.map((player) => {
+        if (player.id === numberId) {
+          player.ps = pAtual;
+          player.psM = pMax;
+        }
+        return player;
+      }
+      );
+    }
+    console.log(updatedPlayers);
+
+    setPlayers(updatedPlayers);
+  }
+
   const contextValue = {
     players,
     setPlayers,
     createPlayer,
     removePlayer,
+    changeStatus,
   };
 
   return (

@@ -1,6 +1,6 @@
 import React, { useContext, useState } from "react";
-import NewPlayer from "../Components/Modals/NewPlayer";
-import MasterContext from "../../Context/";
+import NewPlayer from "../Modals/NewPlayer";
+import MasterContext from "../../../Context";
 import { Link } from "react-router-dom";
 
 function PlayerDisplay() {
