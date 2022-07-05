@@ -1,9 +1,10 @@
 import React from "react";
+import styles from "./Header.module.css";
 
 function Header({ title, showNavBar }) {
   return (
-    <div className="header">
-      <h1>—{title}—</h1>
+    <div className={ styles.header }>
+      <h1 className="text-3xl font-bold mt-0">—{title}—</h1>
       {showNavBar && (
         <nav>
           <span>PERFIL</span>

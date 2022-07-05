@@ -12,7 +12,6 @@
 .modalContainer {
   width: 80%;
   background-color: rgb(13, 20, 36);
-  box-shadow: rgba(0, 0, 0, 0.35) 0 5px 15px;
   display: flex;
   flex-direction: column;
   padding: 25px;
