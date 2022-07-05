@@ -1,13 +1,10 @@
-import React, { useContext } from "react";
-import MasterContext from "../Context/";
+import React from "react";
+import PlayerDisplay from "./Components/PlayerDisplay";
 
 function MasterPage() {
-  const master = useContext(MasterContext);
-  const { name } = master;
-
   return (
     <div>
-      <p>{name}</p>
+      <PlayerDisplay />
     </div>
   );
 }
