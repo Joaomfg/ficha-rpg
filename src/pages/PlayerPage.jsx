@@ -8,6 +8,7 @@ import Resistences from "./Components/Player/Resitences";
 import Defenses from "./Components/Player/Defenses";
 import Attributes from "./Components/Player/Attributes";
 import Skills from "./Components/Player/Skills";
+import Habilities from "./Components/Player/Habilities";
 
 function PlayerPage() {
   const master = useContext(MasterContext);
@@ -36,6 +37,8 @@ function PlayerPage() {
         <Attributes id={ playerId } />
 
         <Skills id={ playerId } />
+
+        <Habilities id={ playerId } />
       </div>
     )
   );
