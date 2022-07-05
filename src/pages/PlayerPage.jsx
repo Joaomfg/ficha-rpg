@@ -1,10 +1,12 @@
-import React, { useContext, useEffect, useRef } from "react";
+import React, { useContext } from "react";
 import Profile from "./Components/Player/Profile";
 import { useLocation } from "react-router-dom";
 import MasterContext from "../Context/";
 import Status from "./Components/Player/Status";
 import Header from "./Components/Header";
+import Resistences from "./Components/Player/Resitences";
 import Defenses from "./Components/Player/Defenses";
+import Attributes from "./Components/Player/Attributes";
 
 function PlayerPage() {
   const master = useContext(MasterContext);
@@ -27,6 +29,10 @@ function PlayerPage() {
         <Status id={ playerId } />
 
         <Defenses id={ playerId } />
+
+        <Resistences id={ playerId } />
+
+        <Attributes id={ playerId } />
       </div>
     )
   );

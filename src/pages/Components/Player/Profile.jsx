@@ -1,7 +1,7 @@
 import React, { useState, useContext, useEffect } from "react";
 import MasterContext from "../../../Context";
 
-function Profile({ id }) {
+function Resistences({ id }) {
   const master = useContext(MasterContext);
   const { players, setPlayers } = master;
 
@@ -48,7 +48,7 @@ function Profile({ id }) {
     }
   };
 
-  const saveProfile = () => {
+  const saveResistences = () => {
     // Essa funcao vai salvar as infos no SQL tambem!
     const player = players.find((player) => player.id === parseFloat(id));
     player.name = name1;
@@ -140,7 +140,7 @@ function Profile({ id }) {
           />
         </label>
 
-        <button type="button" onClick={() => saveProfile()}>
+        <button type="button" onClick={() => saveResistences()}>
           SALVAR
         </button>
       </div>
@@ -148,4 +148,4 @@ function Profile({ id }) {
   );
 }
 
-export default Profile;
+export default Resistences;
