@@ -3,6 +3,8 @@ import Profile from "./Components/Player/Profile";
 import { useLocation } from "react-router-dom";
 import MasterContext from "../Context/";
 import Status from "./Components/Player/Status";
+import Header from "./Components/Header";
+import Defenses from "./Components/Player/Defenses";
 
 function PlayerPage() {
   const master = useContext(MasterContext);
@@ -18,11 +20,13 @@ function PlayerPage() {
       </div>
     ) : (
       <div>
-        <h1>FICHA DO CACADOR</h1>
+        <Header title="FICHA DO CAÇADOR" showNavBar />
   
         <Profile id={ playerId } />
 
         <Status id={ playerId } />
+
+        <Defenses id={ playerId } />
       </div>
     )
   );
