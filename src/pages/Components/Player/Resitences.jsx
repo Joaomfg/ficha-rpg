@@ -70,7 +70,6 @@ function Defenses({ id }) {
     }
   };
 
-  console.log(id);
   return (
     <div>
       <h2>RESISTENCIAS</h2>

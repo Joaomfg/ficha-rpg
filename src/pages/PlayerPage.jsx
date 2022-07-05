@@ -9,6 +9,7 @@ import Defenses from "./Components/Player/Defenses";
 import Attributes from "./Components/Player/Attributes";
 import Skills from "./Components/Player/Skills";
 import Habilities from "./Components/Player/Habilities";
+import Inventory from "./Components/Player/Inventory";
 
 function PlayerPage() {
   const master = useContext(MasterContext);
@@ -39,6 +40,8 @@ function PlayerPage() {
         <Skills id={ playerId } />
 
         <Habilities id={ playerId } />
+
+        <Inventory id={ playerId } />
       </div>
     )
   );

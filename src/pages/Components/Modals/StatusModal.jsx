@@ -21,7 +21,7 @@ function StatusModal({ closeModal, id, title, p, pM }) {
   };
 
   const createAndClose = () => {
-    if (pAtual < 0 || pAtual > pMax) {
+    if (parseInt(pAtual) < 0 || parseInt(pAtual) > pMax) {
       setShowAlert(true);
     } else {
       changeStatus(id, title, pAtual, pMax);

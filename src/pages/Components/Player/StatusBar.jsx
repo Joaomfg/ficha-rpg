@@ -14,12 +14,13 @@ function StatusBar({ id, title, color, p, pM }) {
     <div>
       <h3>{title}</h3>
 
-      <div style={{ backgroundColor: "grey", width: "100%", height: "40px" }}>
+      <div onClick={() => setIsOpen(!isOpen)} style={{ backgroundColor: "grey", width: "100%", height: "40px" }}>
         <div
           style={{
             backgroundColor: `${color}`,
             width: `${pAtual}%`,
             height: "40px",
+            transition: 'width 1s',
           }}
         ></div>
       </div>

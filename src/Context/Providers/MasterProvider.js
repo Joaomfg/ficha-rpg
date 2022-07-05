@@ -38,7 +38,6 @@ export default function MasterProvider({ children }) {
         ps: 0,
         psM: 0,
     }
-    console.log('opa');
     
     setPlayers([...players, newPlayer]);
     setId(id + 1);
@@ -80,7 +79,6 @@ export default function MasterProvider({ children }) {
       }
       );
     }
-    console.log(updatedPlayers);
 
     setPlayers(updatedPlayers);
   }
