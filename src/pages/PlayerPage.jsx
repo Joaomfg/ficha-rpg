@@ -7,6 +7,7 @@ import Header from "./Components/Header";
 import Resistences from "./Components/Player/Resitences";
 import Defenses from "./Components/Player/Defenses";
 import Attributes from "./Components/Player/Attributes";
+import Skills from "./Components/Player/Skills";
 
 function PlayerPage() {
   const master = useContext(MasterContext);
@@ -33,6 +34,8 @@ function PlayerPage() {
         <Resistences id={ playerId } />
 
         <Attributes id={ playerId } />
+
+        <Skills id={ playerId } />
       </div>
     )
   );
