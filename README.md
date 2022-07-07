@@ -9,7 +9,7 @@ Primeiro é preciso entender que, um fator presente em todos os RPGs é a *_alet
 Uma ficha é um documento que contém informações sobre o seu personagem, como nome, classe, história, atributos, pericias, etc. Atributos e Pericias definem o quanto seu personagem é bom em algo, são eles que definem quantos dados você rola ou qual valor você soma ao resultado do teste.
 
 ### Qual sistema essa ficha usa?
-Atualmente ela é feita com base no sistema de [*Ordem Paranormal RPG]*(https://ordemparanormal.com.br/), mas também pode ser usado em sistemas mais simples ou parecidos (Ex: Call of Cthulhu e Tormenta) 
+Atualmente ela é feita com base no sistema de [*Ordem Paranormal RPG*](https://ordemparanormal.com.br/), mas também pode ser usado em sistemas mais simples ou parecidos (Ex: Call of Cthulhu e Tormenta) 
 
 ### O que tem na ficha?
 [x] # Painel do Mestre
