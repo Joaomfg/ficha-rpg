@@ -31,7 +31,7 @@ Atualmente ela é feita com base no sistema de [*Ordem Paranormal RPG*](https://
 
 
 ### Tem alguma dica ou feedback?
-Mande a sua dica ou feedback para o email: _[email]_
+Mande a sua dica ou feedback para o email: _joaomarcelofg@hotmail.com_
 
 
 _Essa ficha foi criada por João Marcelo Franco Gomes, todos os direitos reservados @ 2022_
