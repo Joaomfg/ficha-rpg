@@ -21,13 +21,13 @@ Atualmente ela é feita com base no sistema de [*Ordem Paranormal RPG*](https://
 - [x] # Pericias
 - [x] # Habilidades
 - [x] # Inventário
-- [] # Rituais
-- [] # Armas
-- [] # Rolar dados
-- [] # Historico de Rolagem p/ o mestre
-- [] # Controle de Turnos e Rodadas p/ o mestre
-- [] # Inventário inteligente
-- [] # Seção de condições
+- [ ] # Rituais
+- [ ] # Armas
+- [ ] # Rolar dados
+- [ ] # Historico de Rolagem p/ o mestre
+- [ ] # Controle de Turnos e Rodadas p/ o mestre
+- [ ] # Inventário inteligente
+- [ ] # Seção de condições
 
 
 ### Tem alguma dica ou feedback?
