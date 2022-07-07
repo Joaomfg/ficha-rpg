@@ -12,10 +12,10 @@ Uma ficha é um documento que contém informações sobre o seu personagem, como
 Atualmente ela é feita com base no sistema de [*Ordem Paranormal RPG*](https://ordemparanormal.com.br/), mas também pode ser usado em sistemas mais simples ou parecidos (Ex: Call of Cthulhu e Tormenta) 
 
 ### O que tem na ficha?
-[x] # Painel do Mestre
-[x] # Perfil do Personagem
-[x] # Status do Personagem(Vida, P.E. e Sanidade)
-[x] # Defesa do Personagem
+[x] Painel do Mestre
+[x] Perfil do Personagem
+[x] Status do Personagem(Vida, P.E. e Sanidade)
+[x] Defesa do Personagem
 [x] # Resistencias do Personagem
 [x] # Atributos
 [x] # Pericias
